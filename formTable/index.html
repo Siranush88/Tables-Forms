@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Details</title>
+</head>
+<body>
+    <main>
+        <table>
+           <caption>Job Details:</caption>
+           <form action="/" name="" class="" method="">
+                <tr>
+                    <th>Job Title:</th>
+                    <td>
+                        <input type="text" id="job">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <td>
+                        <textarea name="" id="description" cols="25" rows="5"></textarea>
+                        <p>Brief Description should have almost 500 characters</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Company Name:</th>
+                    <td>
+                        <input type="text" id="company">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Contact number:</th>
+                    <td>
+                        <input type="tel" id="phone" pattern="">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Contact person:</th>
+                    <td>
+                        <input type="text" id="person">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>
+                        <input type="email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Work Status</th>
+                    <td>
+                        <input type="radio" id="full" name="time">
+                        <label for="full">Full Time</label>
+                        
+                        <input type="radio" id="part" name="time">
+                        <label for="part">Part Time</label>
+                            
+                        <input type="radio" id="per" name="time">
+                        <label for="per">Per Dim</label>
+                        
+                        <input type="radio" id="others" name="time">
+                        <label for="others">Others</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>Salary</th>
+                    <td>
+                        <input type="number" id="salary">
+                        <select name="currency" id="currency">
+                            <option value="dollar">US Dollar</option>
+                            <option value="rubli">Rubli</option>
+                            <option value="dram">Dram</option>
+                        </select>  
+                        <select name="frequency" id="frequency">
+                            <option value="yearly">Yearly</option>
+                            <option value="monthly">Monthly</option>
+                            <option value="dayly">Weekly</option>
+                        </select>  
+                    </td>
+                </tr>
+                <tr>
+                    <th>Experience(Years)</th>
+                    <td>
+                        <input type="number" id="experience">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Locations</th>
+                    <td>    
+                        <input type="text" id="location">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Qualifications:</th>
+                    <td>
+                        <select name="qualification" id="qualification">
+                            <option value="high">High School</option>
+                            <option value="any" selected>Any</option>
+                            <option value="associate">Associate</option>
+                            <option value="pre">Pre Bachelors</option>
+                        </select> 
+
+                        <input type="button" value="ADD>>">
+                        <input type="button" value="<<Remove">
+
+                        <input type="text">
+                        <label for=""></label>                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+
+    </main>
+</body>
+</html>
+
+
+
