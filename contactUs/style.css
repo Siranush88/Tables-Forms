@@ -1,0 +1,95 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+html, body, ul, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: lightblue;
+}
+
+.data {
+    background-color: #F8F7F7;
+    padding: 20px 20px 20px 30px;
+}
+
+.addressBar, section.data {
+    display: flex;
+}
+
+/*header*/
+
+.header {
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+
+.mainTitle {
+    border-bottom: 1px solid #9C9C9C;
+    padding-bottom: 13px;
+}
+
+.header .listOne {
+    padding-top: 50px;
+    display: block
+}
+
+.addressBar {
+    padding: 20 0 20px 20px;
+}
+
+div.data {
+    margin-top: 15px;
+}
+
+.address, .listOne, .locationIcon {
+    width: 33%;
+}
+
+.redNumber {
+    color: #DC3A5B;
+    font-weight: bold;
+}
+
+.blueMail {
+    color: #4199E1;
+    font-weight: bold;
+}
+
+.address p, .address address {
+    font-weight: bold;
+    color: #101010;
+}
+
+.listOne li + li {
+    padding-top: 5px;
+}
+
+/*section*/
+
+.tableData, .location {
+    width: 50%;
+}
+
+.location {
+    padding-left: 60px;
+}
+

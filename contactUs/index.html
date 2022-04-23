@@ -5,59 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CONTACT US</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
 </head>
 <body>
-    <header>
-        <div class="container">
+    <!--header-->
+    <header class="header">
+        <div class="container mainTitle">
             <h1>CONTACT US</h1>
-            <div>
-                <address>ADDRESS: Saint Marco Street, 6th floor, Tokyo, Japan, 123456.</address>
+        </div>
+        <div class="container data">
+            <div class="addressBar">
+                <div class="address">
+                    <p>ADDRESS:</p>
+                    <address> 15 Movses Khorenatsi <br> Street, Yerevan, Armenia</address>
+                </div>
+                <ul class="listOne">
+                    <li>
+                        <i></i>
+                        <a href="tel:+91 1234567890" class="redNumber">+91 1234567890</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="mailto:example@gmail.com" class="blueMail">example@gmail.com</a>
+                    </li>
+                </ul>
+                <div class="locationIcon">
+                    <a href="#">
+                        <i class="icon"></i>
+                    </a>
+                </div>
             </div>
-            <ul>
-                <li>
-                    <a href="tel:+91 1234567890">+91 1234567890</a>
-                </li>
-                <li>
-                    <a href="mailto:example@gmail.com">example@gmail.com</a>
-                </li>
-            </ul>
-            <i class="icon"></i>
         </div>
     </header>
 
-    <main>
-        <div class="container">
-            <div>
-                <form action="">
-                    <input type="text" name="username" placeholder="Name:">
-                    <input type="email" name="email" placeholder="Email:">
-                    <input type="text" name="company" placeholder="Company:">
-                    <input type="tel" name="mobile" placeholder="Mobile:">
-                    <textarea name="message" id="message" cols="25" rows="5">Message:</textarea>
-                    <input type="button" value="Send">
-                </form>
+    <!--main-->
+    <main class="main">
+        <section class="container data">
+            <div class="table">
+                <table class="tableData">
+                    <form action="/" name="" class="" method="">
+                        <tr>
+                            <td>
+                                <input type="text" name="username" placeholder="Name:" style="border-radius: 4px; border: 1px solid #BFC1C1; padding: 8px 0 8px 8px; font-size: 17px; margin-bottom: 18px;">
+                            </td>
+                            <td>
+                                <input type="text" name="company" placeholder="Company:"  style="border-radius: 4px; border: 1px solid #BFC1C1; padding: 8px 0 8px 8px; font-size: 17px; margin-bottom: 18px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" name="email" placeholder="Email:" style="border-radius: 4px; border: 1px solid #BFC1C1; padding: 8px 0 8px 8px; font-size: 17px; margin-bottom: 18px;">
+                            </td>
+                            <td>
+                                <input type="tel" name="mobile" placeholder="Mobile:"  pattern="[7-9]{1}[0-9]{9}" style="border-radius: 4px; border: 1px solid #BFC1C1; padding: 8px 0 8px 8px; font-size: 17px; margin-bottom: 18px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="9">
+                                <textarea name="message" id="message" cols="46" rows="5" style="border-radius: 4px; border: 1px solid #BFC1C1; padding: 8px 0 8px 8px; font-size: 17px; margin-bottom: 13px;">Message:</textarea>
+                            </td>
+                        </tr>
+                        <td>
+                            <input type="button" value="Send" style="background-color: #DC3A5B; color: white; padding: 10px 10px 10px 10px; border-radius: 5px; border: 1px solid #DC3A5B; font-size: 17px;">
+                        </td>
+                    </form>
+                </table>
             </div>
-            <div class="map">
-                <div>
-                    <img src="" alt="">
+            <div class="location">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.5324611425012!2d44.507627614610065!3d40.17496227939394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcf83d7edf13%3A0x9ab9de3157984aaf!2sEPAM%20Systems!5e0!3m2!1sru!2s!4v1650713455496!5m2!1sru!2s" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <ul>
+                <ul class="social">
                     <li>
-                        <a href="https://www.facebook.com" class=""></a>
+                        <a href="www.facebook.com">
+                            <i></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com" class=""></a>
+                        <a href="www.twitter.com">
+                            <i></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com" class=""></a>
+                        <a href="www.linkedin.com">
+                            <i></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="wwww.github.com" class=""></a>
+                        <a href="www.github.com">
+                            <i></i>
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
     </main>
+
+
+    
 </body>
 </html>

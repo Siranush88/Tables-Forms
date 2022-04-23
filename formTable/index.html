@@ -11,46 +11,46 @@
     <main>
         <table>
            <caption>Job Details:</caption>
-           <form action="/" name="" class="" method="">
+           <form action="/" name="table" class="" method="">
                 <tr>
-                    <th>Job Title:</th>
+                    <th><label for="job">Job Title</label></th>
                     <td>
-                        <input type="text" id="job">
+                        <input type="text" id="job" name="job">
                     </td>
                 </tr>
                 <tr>
-                    <th>Description</th>
+                    <th><label for="description">Description</label></th>
                     <td>
                         <textarea name="" id="description" cols="25" rows="5"></textarea>
                         <p>Brief Description should have almost 500 characters</p>
                     </td>
                 </tr>
                 <tr>
-                    <th>Company Name:</th>
+                    <th><label for="company">Company Name:</label></th>
                     <td>
-                        <input type="text" id="company">
+                        <input type="text" id="company" name="company">
                     </td>
                 </tr>
                 <tr>
-                    <th>Contact number:</th>
+                    <th><label for="phone">Contact number:</label></th>
                     <td>
-                        <input type="tel" id="phone" pattern="">
+                        <input type="tel" id="phone" pattern="[7-9]{1}[0-9]{9}" name="contactNumber">
                     </td>
                 </tr>
                 <tr>
-                    <th>Contact person:</th>
+                    <th><label for="person">Contact person:</label></th>
                     <td>
-                        <input type="text" id="person">
+                        <input type="text" id="person" name="contactPerson">
                     </td>
                 </tr>
                 <tr>
-                    <th>Email:</th>
+                    <th><label for="email">Email:</lable></th>
                     <td>
-                        <input type="email" id="email">
+                        <input type="email" id="email" name="email">
                     </td>
                 </tr>
                 <tr>
-                    <th>Work Status</th>
+                    <th><label for="full">Work Status</label></th>
                     <td>
                         <input type="radio" id="full" name="time">
                         <label for="full">Full Time</label>
@@ -67,9 +67,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Salary</th>
+                    <th><label for="salary">Salary</label></th>
                     <td>
-                        <input type="number" id="salary">
+                        <input type="number" id="salary" name="salary">
                         <select name="currency" id="currency">
                             <option value="dollar">US Dollar</option>
                             <option value="rubli">Rubli</option>
@@ -83,19 +83,19 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Experience(Years)</th>
+                    <th><label for="experience">Experience(Years)</label></th>
                     <td>
-                        <input type="number" id="experience">
+                        <input type="number" id="experience" name="experience">
                     </td>
                 </tr>
                 <tr>
-                    <th>Locations</th>
+                    <th><label for="location">Locations</label></th>
                     <td>    
-                        <input type="text" id="location">
+                        <input type="text" id="location" name="location">
                     </td>
                 </tr>
                 <tr>
-                    <th>Qualifications:</th>
+                    <th><label for="qualification">Qualifications:</label></th>
                     <td>
                         <select name="qualification" id="qualification">
                             <option value="high">High School</option>
@@ -104,11 +104,10 @@
                             <option value="pre">Pre Bachelors</option>
                         </select> 
 
-                        <input type="button" value="ADD>>">
-                        <input type="button" value="<<Remove">
+                        <input type="button" value="ADD>>" name="buttonAdd">
+                        <input type="button" value="<<Remove" name="buttonRemove">
 
-                        <input type="text">
-                        <label for=""></label>                       
+                        <input type="text" id="any" name="any">                      
                     </td>
                 </tr>
                 <tr>
